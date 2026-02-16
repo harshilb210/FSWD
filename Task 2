@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Fest 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-20 text-center">
+    <h1 class="text-5xl font-bold mb-4">College Fest 2026 🎉</h1>
+    <p class="text-xl">Join us for an unforgettable experience!</p>
+    <button class="mt-6 bg-white text-purple-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">
+      Register Now
+    </button>
+  </section>
+
+  <!-- Event Details -->
+  <section class="py-16 container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Event Details</h2>
+    <p>Date: March 15, 2026</p>
+    <p>Venue: College Auditorium</p>
+    <p>Time: 10:00 AM onwards</p>
+  </section>
+
+  <!-- Schedule -->
+  <section class="bg-gray-200 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-center">Event Schedule</h2>
+      <div class="space-y-4">
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="font-semibold">10:00 AM - Opening Ceremony</h3>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="font-semibold">12:00 PM - Technical Events</h3>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="font-semibold">3:00 PM - Cultural Performances</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="py-16 container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8 text-center">Highlights</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h3 class="font-bold text-xl">Guest Speakers</h3>
+        <p class="text-gray-600">Industry experts sharing insights.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h3 class="font-bold text-xl">Competitions</h3>
+        <p class="text-gray-600">Coding, Quiz, Dance & more.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <h3 class="font-bold text-xl">Prizes</h3>
+        <p class="text-gray-600">Exciting rewards for winners.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-purple-600 text-white text-center p-4">
+    © 2026 College Fest. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
